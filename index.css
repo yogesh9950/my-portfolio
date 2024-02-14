@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+nav{
+    height: 8%;
+    width: 100%;
+    background-color: white;
+}
+#divnav1{
+    position: absolute;
+    left: 60px;
+    top: 7px;
+}
+#divnav1 a{
+    font-size: 30px;
+    font-family: Orbitron;
+    text-decoration: none;
+    color:black;
+}
+#divnav2 {
+display: flex;
+position: absolute;
+top: 7px;
+left: 700px;
+}
+#divnav2 ul{
+    font-size: 20px;
+    margin: 5px;
+    word-spacing: 20px;
+    
+}
+#divnav2 ul:hover{
+    font: bold;
+    color: rgb(20, 243, 120);
+}
+#main {
+    width: 100%;
+    height:100%;
+    background-image: url(https://media.istockphoto.com/id/1179976609/photo/serious-handsome-caucasian-businessman-in-suit-leaning-on-desk-and-looking-at-charts-late.jpg?s=1024x1024&w=is&k=20&c=8hIUc6Z28IoDYP-kuVuWpyiJNDwtbyy6Y7EJLcprfts=);
+}
+#heading1{
+    position: absolute;
+    top: 40%;
+    left: 29%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-family: Orbitron;
+    color: white;
+}
+#heading2{
+    position: absolute;
+    top: 47%;
+    left: 23%;
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-family: Orbitron;
+    color: white;
+}
+#heading3{ position: absolute;
+    top: 60%;
+    left: 23%;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: Orbitron;
+    color: white;
+}
+button{
+    height: 45px;
+    width: 150px;
+    position: absolute;
+    top: 70%;
+    left: 23%;
+    background-color: rgba(0, 0, 0, 0.034);
+    color: white;
+    border: 2px solid white;
+}
+button:hover{
+    background-color:skyblue;
+    border: 2px solid white;
+}
+#div1{
+    height: 70%;
+    width: 100%;
+    background-color:black;
+}
+#div1 h1{
+    color: white;
+    font-size: 40px;
+    font-family:  Orbitron;
+    text-align: center;
+    background-color: black;
+}
+.divclass1{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    background-color:black;
+    position: absolute;
+    top: 130%;
+}
+#div2{
+    width: 25%;
+    height: 100%;
+    background-color:black;
+    position:absolute ;
+    left: 5%;
+}
+#div2 p{
+    position: absolute;
+    top: 35%;
+    font-size:21px ;
+    word-break: 3px;
+    letter-spacing: 2px;
+    color: white;
+}
+#div22{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    background-color:black;
+}
+#div22 h5{
+    position: absolute;
+    left: 23%;
+    font-size: 20px;
+    top: 8%;
+    color: white;
+}
+#div23{
+    width: 20%;
+    height: 100%;
+    color: white;
+    border: 2px solid white;
+}
+#div3{
+    width: 25%;
+    height: 100%;
+    background-color:black;
+    position: absolute;
+    left: 38%;
+}
+#p1{
+    position: absolute;
+    top: 35%;
+    font-size:21px ;
+    word-break: 3px;
+    letter-spacing: 2px;
+    color: white;
+}
+#h51{
+    position: absolute;
+    left: 23%;
+    font-size: 20px;
+    top: 8%;
+    color: white;
+}
+#p1{
+    position: absolute;
+    top: 35%;
+    font-size:21px ;
+    word-break: 3px;
+    letter-spacing: 2px;
+    color: white;
+}
+#div31{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    background-color:black;
+}
+#div32{
+    width: 20%;
+    height: 100%;
+    color: white;
+    border: 2px solid white;
+}
+#div4{
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    left: 71%;
+}
+#p2{
+    position: absolute;
+    top: 35%;
+    font-size:21px ;
+    word-break: 3px;
+    letter-spacing: 2px;
+    color: white;
+}
+#h52{
+    position: absolute;
+    left: 23%;
+    font-size: 20px;
+    top: 8%;
+    color: white;
+}
+#p2{
+    position: absolute;
+    top: 35%;
+    font-size:21px ;
+    word-break: 3px;
+    letter-spacing: 2px;
+    color: white;
+}
+#div41{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    background-color:black;
+}
+#div42{
+    width: 20%;
+    height: 100%;
+    color: white;
+    border: 2px solid white;
+}
+#div5{
+    width: 100%;
+    height: 25%;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding: 75px;
+    font-family: Orbitron;
+}
+.divclass2{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background-color:black;
+}
+#div6{
+    width: 20%;
+    height: 80%;
+    background-color:black;
+    position: absolute;
+    left: 3%;
+}
+#div61{
+    height: 50%;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+#h13{
+    position: absolute;
+    left: 15px;
+    top: 280px;
+    color: white;
+}
+#h14{
+    position: absolute;
+    left: 15px;
+    top: 310px;
+    color: white;
+}
+#div7{
+    width: 20%;
+    height: 80%;
+    background-color: black;
+    position: absolute;
+    left: 28%;
+}
+#div71{
+    height: 50%;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+#h11{
+    position: absolute;
+    left: 15px;
+    top: 280px;
+    color: white;
+}
+#h12{
+    position: absolute;
+    left: 15px;
+    top: 310px;
+    color: white;
+}
+#div8{
+    width:20%;
+    height: 80%;
+    background-color:black;
+    position: absolute;
+    left: 53%;
+}
+#div81{
+    height: 50%;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+#h21{
+    position: absolute;
+    left: 15px;
+    top: 280px;
+    color: white;
+}
+#h22{
+    position: absolute;
+    left: 15px;
+    top: 310px;
+    color: white;
+}
+#div9{
+    width:20%;
+    height: 80%;
+    background-color:black;
+    position: absolute;
+    left: 78%;
+}
+#div91{
+    height: 50%;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+#div10{
+    width: 100%;
+    height: 25%;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding: 75px;
+    font-family: Orbitron;
+}
+#h30{
+    position: absolute;
+    left: 15px;
+    top: 280px;
+    color: white;
+}
+#h41{
+    position: absolute;
+    left: 15px;
+    top: 310px;
+    color: white;
+}
+#p11{
+    position: absolute;
+    left: 15px;
+    top: 345px;
+    font-size: 20px;
+    color: white;
+}
+#p12{
+    position: absolute;
+    left: 15px;
+    top: 345px;
+    font-size: 20px;
+    color: white;
+}#p13{
+    position: absolute;
+    left: 15px;
+    top: 345px;
+    font-size: 20px;
+    color: white;
+}
+#p14{
+    position: absolute;
+    left: 15px;
+    top: 345px;
+    font-size: 20px;
+    color: white;
+}
+#div16{
+    display: flex;
+    height: 55%;
+    width: 100%;
+    background-color:black;
+}
+#div17{
+    height: 55%;
+    width: 25%;
+    background-color:black;
+    position: absolute;
+    left: 7%;
+}
+#div18{
+    height: 55%;
+    width: 25%;
+    background-color:black;
+    position: absolute;
+    left: 38%;
+}
+#div19{
+    height: 55%;
+    width: 25%;
+    background-color:black;
+    position: absolute;
+    left: 69%;
+}
+#div119{
+    width: 16%;
+    color: white;
+    border: 2px solid white;
+}
+#h33{
+    position: absolute;
+    top: 70px;
+}
+#p17{
+    position: absolute;
+    top: 105px;
+    font-size: 20px;
+    word-spacing:2px;
+    color: white;
+}
+#div118{
+    width: 19%;
+    color: white;
+    border: 2px solid white;
+}
+#h32{
+    position: absolute;
+    top: 70px;
+}
+#p16{
+    position: absolute;
+    top: 105px;
+    font-size: 20px;
+    word-spacing:2px;
+    color: white;
+}
+#div117{
+    width: 16%;
+    color: white;
+    border: 2px solid white;
+}
+#h31{
+    position: absolute;
+    top: 70px;
+}
+#p15{
+    position: absolute;
+    top: 105px;
+    font-size: 20px;
+    word-spacing:2px;
+    color: white;
+}
+#div111{
+    width: 100%;
+    height: 25%;
+    background-color: black;
+    color: skyblue;
+    font-size: 40px;
+    text-align: center;
+    padding: 75px;
+    font-family: Orbitron;
+}
+#div120{
+    width: 100%;
+    height: 65%;
+    background-color:black;
+    display: flex;
+}
+#div121{
+    width: 50%;
+    height: 87%;
+    background-color:black;
+}
+#div122{
+    width: 50%;
+    height: 87%;
+    background-color:black;
+
+} 
+#name1{
+    position: absolute;
+    left: 5%;
+    color: white;
+}
+#name{
+    position: absolute;
+    left: 5%;
+    width: 42%;
+    height: 7%;
+    border: 2px solid skyblue;
+}
+#mail{
+    position: absolute;
+    left: 5%;
+    width: 42%;
+    height: 7%;
+    border: 2px solid skyblue;
+}
+#mail1{
+    position: absolute;
+    left: 5%;
+    color: white;
+}
+#message{
+    position: absolute;
+    left: 5%;
+    width: 42%;
+    height: 14%;
+    border: 2px solid skyblue;
+}
+#message1{
+    position: absolute;
+    left: 5%;
+    color: white;
+}
+#submit{
+    position: absolute;
+    left: 5%;
+    width: 42%;
+    height: 7%;
+    color: white;
+    background-color: skyblue;
+    border: skyblue;
+}
+#submit:hover{
+    background-color: black;
+    border: 2px solid skyblue;
+}
+#p211{
+    font-size: 20px;
+    color: white;
+}
+#h211{
+    color: white;
+}
+#p212{
+    font-size: 20px;
+    color: white;
+}
+#p213{
+    font-size: 20px;
+    color: white;
+}
+#p214{
+    font-size: 20px;
+    color: white;
+}
+#div225{
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+#h215{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    }
+.omimg{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
